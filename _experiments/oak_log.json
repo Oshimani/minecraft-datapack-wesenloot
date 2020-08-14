@@ -1,0 +1,39 @@
+{
+    "pools":[
+        {
+            "rolls":1, 
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"minecraft:spruce_log",
+                    "weight":1
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type":"item",
+                    "name": "minecraft:charcoal",
+                    "weight": 1,
+                    "conditions":[
+                        {
+                            "condition": "minecraft:match_tool",
+                            "predicate": {
+                                "enchantments": [
+                                    {
+                                        "enchantment": "minecraft:fire_aspect",
+                                        "level":{
+                                            "min":1
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]                    
+                }
+            ]
+        }
+    ]
+}
