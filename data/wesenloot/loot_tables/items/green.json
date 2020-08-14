@@ -4,8 +4,8 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:diamond_pickaxe",
+                    "type": "minecraft:loot_table",
+                    "name": "wesenloot:items/tools/green",
                     "weight": 1
                 }
             ]

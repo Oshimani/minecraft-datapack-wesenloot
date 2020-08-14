@@ -14,16 +14,6 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_pickaxe",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
           "type": "minecraft:loot_table",
           "name": "wesenloot:items/green"
         }
