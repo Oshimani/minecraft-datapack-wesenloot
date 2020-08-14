@@ -12,11 +12,13 @@
                     "type": "minecraft:loot_table",
                     "name": "wesenloot:items/armor/chestplates/blue",
                     "weight": 1
-                },                {
+                },
+                {
                     "type": "minecraft:loot_table",
                     "name": "wesenloot:items/armor/helmets/blue",
                     "weight": 1
-                },                {
+                },
+                {
                     "type": "minecraft:loot_table",
                     "name": "wesenloot:items/armor/legs/blue",
                     "weight": 1

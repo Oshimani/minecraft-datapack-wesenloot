@@ -5,79 +5,23 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_pickaxe",
+                    "name": "minecraft:diamond_chestplate",
                     "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{ Name: '{\"text\":\"Geflügelte Plattenstiefel\", \"color\":\"blue\", \"italic\":false}' }, Enchantments:[{id:\"feather_falling\",lvl:4}]}"
-                        },
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "generic.armor",
-                                    "name": "armourup",
-                                    "operation": "addition",
-                                    "amount": {
-                                        "min": 1,
-                                        "max": 2
-                                    },
-                                    "slot": "feet"
-                                }
-                            ]
+                            "tag": "{display:{ Name: '{\"text\":\"Gepanzerter Harnisch des Igels\", \"color\":\"blue\", \"italic\":false}' }, Enchantments:[{id:\"protection\",lvl:4}, {id:\"thorns\",lvl:2}]}"
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_pickaxe",
+                    "name": "minecraft:diamond_chestplate",
                     "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{ Name: '{\"text\":\"Nordische Plattenstiefel\", \"color\":\"blue\", \"italic\":false}' }, Enchantments:[{id:\"frost_walker\",lvl:2}]}"
-                        },
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "generic.armor",
-                                    "name": "armourup",
-                                    "operation": "addition",
-                                    "amount": {
-                                        "min": 1,
-                                        "max": 2
-                                    },
-                                    "slot": "feet"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_pickaxe",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{ Name: '{\"text\":\"Unverwüstliche Plattenstiefel\", \"color\":\"blue\", \"italic\":false}' }, Enchantments:[{id:\"unbreaking\",lvl:3}]}"
-                        },
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "generic.armor",
-                                    "name": "armourup",
-                                    "operation": "addition",
-                                    "amount": {
-                                        "min": 1,
-                                        "max": 2
-                                    },
-                                    "slot": "feet"
-                                }
-                            ]
+                            "tag": "{display:{ Name: '{\"text\":\"Feuerfester Harnisch des Igels\", \"color\":\"blue\", \"italic\":false}' }, Enchantments:[{id:\"fire_protection\",lvl:4}, {id:\"thorns\",lvl:2}]}"
                         }
                     ]
                 }

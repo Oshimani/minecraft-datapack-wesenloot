@@ -5,12 +5,12 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_boots",
+                    "name": "minecraft:diamond_chestplate",
                     "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{ Name: '{\"text\":\"Geflügelten Plattenstiefel\", \"color\":\"dark_purple\", \"italic\":false}' }, Enchantments:[{id:\"feather_falling\",lvl:4},{id:\"unbreaking\",lvl:3}]}"
+                            "tag": "{display:{ Name: '{\"text\":\"Gepanzerter Harnisch des Igels\", \"color\":\"dark_purple\", \"italic\":false}' }, Enchantments:[{id:\"protection\",lvl:4}, {id:\"thorns\",lvl:2}]}"
                         },
                         {
                             "function": "minecraft:set_attributes",
@@ -19,11 +19,8 @@
                                     "attribute": "generic.armor",
                                     "name": "armourup",
                                     "operation": "addition",
-                                    "amount": {
-                                        "min": 2,
-                                        "max": 4
-                                    },
-                                    "slot": "feet"
+                                    "amount": 10,
+                                    "slot": "chest"
                                 }
                             ]
                         }
@@ -31,12 +28,12 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_boots",
+                    "name": "minecraft:diamond_chestplate",
                     "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{ Name: '{\"text\":\"Nordische Plattenstiefel\", \"color\":\"dark_purple\", \"italic\":false}' }, Enchantments:[{id:\"frost_walker\",lvl:2},{id:\"unbreaking\",lvl:3}]}"
+                            "tag": "{display:{ Name: '{\"text\":\"Feuerfester Harnisch des Igels\", \"color\":\"dark_purple\", \"italic\":false}' }, Enchantments:[{id:\"fire_protection\",lvl:4}, {id:\"thorns\",lvl:2}]}"
                         },
                         {
                             "function": "minecraft:set_attributes",
@@ -45,37 +42,8 @@
                                     "attribute": "generic.armor",
                                     "name": "armourup",
                                     "operation": "addition",
-                                    "amount": {
-                                        "min": 2,
-                                        "max": 4
-                                    },
-                                    "slot": "feet"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_boots",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{ Name: '{\"text\":\"Unverwüstliche Panzerplattenstiefel\", \"color\":\"dark_purple\", \"italic\":false}' }, Enchantments:[{id:\"protection\",lvl:4},{id:\"unbreaking\",lvl:3}]}"
-                        },
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "generic.armor",
-                                    "name": "armourup",
-                                    "operation": "addition",
-                                    "amount": {
-                                        "min": 2,
-                                        "max": 4
-                                    },
-                                    "slot": "feet"
+                                    "amount": 10,
+                                    "slot": "chest"
                                 }
                             ]
                         }

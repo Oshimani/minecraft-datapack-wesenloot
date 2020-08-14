@@ -5,22 +5,17 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "wesenloot:items/armor/boots/green",
+                    "name": "wesenloot:items/armor/orange",
                     "weight": 1
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "wesenloot:items/armor/chestplates/green",
+                    "name": "wesenloot:items/tools/orange",
                     "weight": 1
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "wesenloot:items/armor/helmets/green",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "wesenloot:items/armor/legs/green",
+                    "name": "wesenloot:items/weapons/orange",
                     "weight": 1
                 }
             ]

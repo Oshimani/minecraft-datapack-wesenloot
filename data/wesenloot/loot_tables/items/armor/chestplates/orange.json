@@ -5,36 +5,22 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_boots",
+                    "name": "minecraft:diamond_chestplate",
                     "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{ Name: '{\"text\":\"Apollos Reiterstiefel\", \"color\":\"gold\", \"italic\":false}' }, Enchantments:[{id:\"feather_falling\",lvl:4},{id:\"unbreaking\",lvl:4}"
+                            "tag": "{display:{ Name: '{\"text\":\"Warmogs Rüstung\", \"color\":\"gold\", \"italic\":false}' }, Enchantments:[{id:\"protection\",lvl:4}, {id:\"thorns\",lvl:2}]}"
                         },
                         {
                             "function": "minecraft:set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "generic.armor",
+                                    "attribute": "generic.max_health",
                                     "name": "armourup",
                                     "operation": "addition",
-                                    "amount": 4,
-                                    "slot": "feet"
-                                },
-                                {
-                                    "attribute": "generic.maxHealth",
-                                    "name": "healthup",
-                                    "operation": "addition",
-                                    "amount": 4,
-                                    "slot": "feet"
-                                },
-                                {
-                                    "attribute": "generic.movement_speed",
-                                    "name": "healthup",
-                                    "operation": "multiply_base",
-                                    "amount": 0.2,
-                                    "slot": "feet"
+                                    "amount": 12,
+                                    "slot": "chest"
                                 }
                             ]
                         }
@@ -42,12 +28,12 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_boots",
+                    "name": "minecraft:diamond_chestplate",
                     "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{ Name: '{\"text\":\"Garoshs Kriegsstiefel\", \"color\":\"gold\", \"italic\":false}' }, Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:5]}"
+                            "tag": "{display:{ Name: '{\"text\":\"Dornenpanzer\", \"color\":\"gold\", \"italic\":false}' }, Enchantments:[{id:\"protection\",lvl:4}, {id:\"thorns\",lvl:4}, {id:\"unbreaking\",lvl:4}]}"
                         },
                         {
                             "function": "minecraft:set_attributes",
@@ -56,22 +42,15 @@
                                     "attribute": "generic.armor",
                                     "name": "armourup",
                                     "operation": "addition",
-                                    "amount": 4,
-                                    "slot": "feet"
+                                    "amount": 12,
+                                    "slot": "chest"
                                 },
                                 {
-                                    "attribute": "generic.maxHealth",
-                                    "name": "healthup",
+                                    "attribute": "generic.max_health",
+                                    "name": "armourup",
                                     "operation": "addition",
-                                    "amount": 4,
-                                    "slot": "feet"
-                                },
-                                {
-                                    "attribute": "generic.movement_speed",
-                                    "name": "healthup",
-                                    "operation": "multiply_base",
-                                    "amount": 0.2,
-                                    "slot": "feet"
+                                    "amount": 2,
+                                    "slot": "chest"
                                 }
                             ]
                         }

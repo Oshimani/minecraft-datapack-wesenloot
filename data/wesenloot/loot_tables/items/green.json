@@ -10,12 +10,12 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "wesenloot:items/tools/tools/green",
+                    "name": "wesenloot:items/tools/green",
                     "weight": 1
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "wesenloot:items/tools/weapons/green",
+                    "name": "wesenloot:items/weapons/green",
                     "weight": 1
                 }
             ]

@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{ Name: '{\"text\":\"Apollos Reiterstiefel\", \"color\":\"gold\", \"italic\":false}' }, Enchantments:[{id:\"feather_falling\",lvl:4},{id:\"unbreaking\",lvl:4}"
+                            "tag": "{display:{ Name: '{\"text\":\"Apollos Reiterstiefel\", \"color\":\"gold\", \"italic\":false}' }, Enchantments:[{id:\"feather_falling\",lvl:4}, {id:\"unbreaking\",lvl:4}]}"
                         },
                         {
                             "function": "minecraft:set_attributes",
@@ -23,7 +23,7 @@
                                     "slot": "feet"
                                 },
                                 {
-                                    "attribute": "generic.maxHealth",
+                                    "attribute": "generic.max_health",
                                     "name": "healthup",
                                     "operation": "addition",
                                     "amount": 4,
@@ -47,7 +47,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{ Name: '{\"text\":\"Garoshs Kriegsstiefel\", \"color\":\"gold\", \"italic\":false}' }, Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:5]}"
+                            "tag": "{display:{ Name: '{\"text\":\"Garoshs Kriegsstiefel\", \"color\":\"gold\", \"italic\":false}' }, Enchantments:[{id:\"unbreaking\",lvl:4}, {id:\"protection\",lvl:5}]}"
                         },
                         {
                             "function": "minecraft:set_attributes",
@@ -60,7 +60,7 @@
                                     "slot": "feet"
                                 },
                                 {
-                                    "attribute": "generic.maxHealth",
+                                    "attribute": "generic.max_health",
                                     "name": "healthup",
                                     "operation": "addition",
                                     "amount": 4,
