@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "wesenloot:items/armor/boots/green",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "wesenloot:items/armor/chestplates/green",
+                    "weight": 1
+                },                {
+                    "type": "minecraft:loot_table",
+                    "name": "wesenloot:items/armor/helmets/green",
+                    "weight": 1
+                },                {
+                    "type": "minecraft:loot_table",
+                    "name": "wesenloot:items/armor/legs/green",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

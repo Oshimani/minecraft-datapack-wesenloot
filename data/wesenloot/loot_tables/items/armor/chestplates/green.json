@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Geflügelte Stiefel\", \"color\":\"green\", \"italic\":false}' }, Enchantments:[{id:\"feather_falling\",lvl:4}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Nordische Stiefel\", \"color\":\"green\", \"italic\":false}' }, Enchantments:[{id:\"frost_walker\",lvl:2}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Unverwüstliche Stiefel\", \"color\":\"green\", \"italic\":false}' }, Enchantments:[{id:\"unbreaking\",lvl:3}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

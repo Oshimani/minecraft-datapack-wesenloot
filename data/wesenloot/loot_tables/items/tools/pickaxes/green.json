@@ -21,7 +21,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{ Name: '{\"text\":\"Flinke Spitzhacke\", \"color\":\"green\", \"italic\":false}' }, Enchantments:[{id:\"efficiency\",lvl:5}]}"
+                            "tag": "{display:{ Name: '{\"text\":\"Flinke Spitzhacke\", \"color\":\"green\", \"italic\":false}' }, Enchantments:[{id:\"efficiency\",lvl:4}]}"
                         }
                     ]
                 },

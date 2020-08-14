@@ -1,0 +1,113 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Unverwüstliche Schaufel des Hasen\", \"color\":\"blue\", \"italic\":false}' }, Enchantments:[{id:\"unbreaking\",lvl:3}]}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.movement_speed",
+                                    "name": "speedboost",
+                                    "operation": "multiply_base",
+                                    "amount": {
+                                        "min": 0.1,
+                                        "max": 0.3
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Flinke Schaufel des Hasen\", \"color\":\"blue\", \"italic\":false}' }, Enchantments:[{id:\"efficiency\",lvl:5}]}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.movement_speed",
+                                    "name": "speedboost",
+                                    "operation": "multiply_base",
+                                    "amount": {
+                                        "min": 0.1,
+                                        "max": 0.3
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Gesegnete Schaufel des Hasen\", \"color\":\"blue\", \"italic\":false}' }, Enchantments:[{id:\"fortune\",lvl:3}]}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.movement_speed",
+                                    "name": "speedboost",
+                                    "operation": "multiply_base",
+                                    "amount": {
+                                        "min": 0.1,
+                                        "max": 0.3
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Behutsame Schaufel des Hasen\", \"color\":\"blue\", \"italic\":false}' }, Enchantments:[{id:\"silk_touch\",lvl:1}]}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.movement_speed",
+                                    "name": "speedboost",
+                                    "operation": "multiply_base",
+                                    "amount": {
+                                        "min": 0.1,
+                                        "max": 0.3
+                                    },
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

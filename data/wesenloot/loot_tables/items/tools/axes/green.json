@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Unverwüstliche Axt\", \"color\":\"green\", \"italic\":false}' }, Enchantments:[{id:\"unbreaking\",lvl:3}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Flinke Axt\", \"color\":\"green\", \"italic\":false}' }, Enchantments:[{id:\"efficiency\",lvl:4}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

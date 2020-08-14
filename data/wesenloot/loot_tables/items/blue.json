@@ -5,7 +5,17 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "wesenloot:items/tools/pickaxes/blue",
+                    "name": "wesenloot:items/armor/blue",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "wesenloot:items/tools/tools/blue",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "wesenloot:items/tools/weapons/blue",
                     "weight": 1
                 }
             ]

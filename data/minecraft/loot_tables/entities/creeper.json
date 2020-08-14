@@ -27,6 +27,15 @@
           "name": "wesenloot:items/blue"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "wesenloot:items/purple"
+        }
+      ]
     }
   ]
 }

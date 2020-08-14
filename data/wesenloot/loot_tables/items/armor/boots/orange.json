@@ -1,0 +1,83 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Apollos Reiterstiefel\", \"color\":\"gold\", \"italic\":false}' }, Enchantments:[{id:\"feather_falling\",lvl:4},{id:\"unbreaking\",lvl:4}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.armor",
+                                    "name": "armourup",
+                                    "operation": "addition",
+                                    "amount": 4,
+                                    "slot": "feet"
+                                },
+                                {
+                                    "attribute": "generic.maxHealth",
+                                    "name": "healthup",
+                                    "operation": "addition",
+                                    "amount": 4,
+                                    "slot": "feet"
+                                },
+                                {
+                                    "attribute": "generic.movement_speed",
+                                    "name": "healthup",
+                                    "operation": "multiply_base",
+                                    "amount": 0.2,
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Garoshs Kriegsstiefel\", \"color\":\"gold\", \"italic\":false}' }, Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:5]}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.armor",
+                                    "name": "armourup",
+                                    "operation": "addition",
+                                    "amount": 4,
+                                    "slot": "feet"
+                                },
+                                {
+                                    "attribute": "generic.maxHealth",
+                                    "name": "healthup",
+                                    "operation": "addition",
+                                    "amount": 4,
+                                    "slot": "feet"
+                                },
+                                {
+                                    "attribute": "generic.movement_speed",
+                                    "name": "healthup",
+                                    "operation": "multiply_base",
+                                    "amount": 0.2,
+                                    "slot": "feet"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
