@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Unverwüstliche Spitzhacke\", \"color\":\"green\", \"italic\":false}' }, Enchantments:[{id:\"unbreaking\",lvl:3}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Flinke Spitzhacke\", \"color\":\"green\", \"italic\":false}' }, Enchantments:[{id:\"efficiency\",lvl:5}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Gesegnete Spitzhacke\", \"color\":\"green\", \"italic\":false}' }, Enchantments:[{id:\"fortune\",lvl:3}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{ Name: '{\"text\":\"Behutsame Spitzhacke\", \"color\":\"green\", \"italic\":false}' }, Enchantments:[{id:\"silk_touch\",lvl:1}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

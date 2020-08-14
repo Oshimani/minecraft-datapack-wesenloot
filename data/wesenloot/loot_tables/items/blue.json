@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "wesenloot:items/tools/pickaxes/green",
+                    "name": "wesenloot:items/tools/pickaxes/blue",
                     "weight": 1
                 }
             ]
